@@ -1,4 +1,4 @@
-name: Terraform CD
+name: ECS CICD
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Terraform CD
+name: Lambda CICD
 
 on:
   workflow_dispatch:
