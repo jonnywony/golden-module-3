@@ -32,7 +32,7 @@ jobs:
      run: terraform init
      
    - name: Terraform Plan
-     run: terraform plan -var="app=ecs"
+     run: terraform plan -var="app=lambda"
 
    - name: Terraform Apply
-     run: terraform apply --auto-approve -var="app=ecs"
+     run: terraform apply --auto-approve -var="app=lambda"
